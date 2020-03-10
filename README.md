@@ -1,8 +1,15 @@
-# GLFW
+# au-glfw - a fork of glfw (https://github.com/glfw) for use in the Aulys Engine.
 
 [![Build status](https://travis-ci.org/glfw/glfw.svg?branch=master)](https://travis-ci.org/glfw/glfw)
 [![Build status](https://ci.appveyor.com/api/projects/status/0kf0ct9831i5l6sp/branch/master?svg=true)](https://ci.appveyor.com/project/elmindreda/glfw)
 [![Coverity Scan](https://scan.coverity.com/projects/4884/badge.svg)](https://scan.coverity.com/projects/glfw-glfw)
+
+## Changes from the original
+- Added premake5.lua file to make things happen with our build system.
+- This README.
+- Added a build folder and modified the .gitignore appropriately.
+
+If I made any other changes and forgot, I'm sorry I betrayed your trust.
 
 ## Introduction
 

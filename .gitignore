@@ -1,5 +1,7 @@
-# The canonical out-of-tree build subdirectory
-build
+# au modifications
+# Exclude all in the build folder, but keep it around because things complained at me if I didn't.
+build/**/
+!build/.gitkeep
 
 # Visual Studio clutter
 _ReSharper*
